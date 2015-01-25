@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		241215921A5B7A8500CCDF04 /* pauseButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 241215901A5B7A8500CCDF04 /* pauseButton.png */; };
+		241215931A5B7A8500CCDF04 /* pauseButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 241215911A5B7A8500CCDF04 /* pauseButton@2x.png */; };
+		241215951A5B7E1900CCDF04 /* platform.png in Resources */ = {isa = PBXBuildFile; fileRef = 241215941A5B7E1900CCDF04 /* platform.png */; };
+		241617471A5BA66E00549D60 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 241617461A5BA66E00549D60 /* CoreGraphics.framework */; };
+		241617491A5BA67A00549D60 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 241617481A5BA67A00549D60 /* UIKit.framework */; };
+		2416174B1A5BA68000549D60 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2416174A1A5BA68000549D60 /* SpriteKit.framework */; };
+		2416174D1A5BA68800549D60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2416174C1A5BA68800549D60 /* Foundation.framework */; };
 		24AAC93C1A524FCC000A8122 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AAC93B1A524FCC000A8122 /* AppDelegate.swift */; };
 		24AAC93E1A524FCC000A8122 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 24AAC93D1A524FCC000A8122 /* GameScene.sks */; };
 		24AAC9401A524FCC000A8122 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AAC93F1A524FCC000A8122 /* GameScene.swift */; };
@@ -15,6 +22,10 @@
 		24AAC9471A524FCC000A8122 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24AAC9461A524FCC000A8122 /* Images.xcassets */; };
 		24AAC94A1A524FCC000A8122 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24AAC9481A524FCC000A8122 /* LaunchScreen.xib */; };
 		24AAC9561A524FCC000A8122 /* Dodge_Man__Swift_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AAC9551A524FCC000A8122 /* Dodge_Man__Swift_Tests.swift */; };
+		24AAC9601A525083000A8122 /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AAC95F1A525083000A8122 /* MenuScene.swift */; };
+		24AAC9621A52567C000A8122 /* ground.png in Resources */ = {isa = PBXBuildFile; fileRef = 24AAC9611A52567C000A8122 /* ground.png */; };
+		24AAC9661A5259CC000A8122 /* character.png in Resources */ = {isa = PBXBuildFile; fileRef = 24AAC9641A5259CC000A8122 /* character.png */; };
+		24AAC9671A5259CC000A8122 /* character@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24AAC9651A5259CC000A8122 /* character@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		241215901A5B7A8500CCDF04 /* pauseButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pauseButton.png; sourceTree = "<group>"; };
+		241215911A5B7A8500CCDF04 /* pauseButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pauseButton@2x.png"; sourceTree = "<group>"; };
+		241215941A5B7E1900CCDF04 /* platform.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = platform.png; sourceTree = "<group>"; };
+		241617461A5BA66E00549D60 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		241617481A5BA67A00549D60 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2416174A1A5BA68000549D60 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		2416174C1A5BA68800549D60 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		24AAC9361A524FCC000A8122 /* Dodge Man (Swift).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dodge Man (Swift).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		24AAC93A1A524FCC000A8122 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24AAC93B1A524FCC000A8122 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +58,10 @@
 		24AAC94F1A524FCC000A8122 /* Dodge Man (Swift)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dodge Man (Swift)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		24AAC9541A524FCC000A8122 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24AAC9551A524FCC000A8122 /* Dodge_Man__Swift_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dodge_Man__Swift_Tests.swift; sourceTree = "<group>"; };
+		24AAC95F1A525083000A8122 /* MenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
+		24AAC9611A52567C000A8122 /* ground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ground.png; sourceTree = "<group>"; };
+		24AAC9641A5259CC000A8122 /* character.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = character.png; sourceTree = "<group>"; };
+		24AAC9651A5259CC000A8122 /* character@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "character@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +69,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2416174D1A5BA68800549D60 /* Foundation.framework in Frameworks */,
+				2416174B1A5BA68000549D60 /* SpriteKit.framework in Frameworks */,
+				241617491A5BA67A00549D60 /* UIKit.framework in Frameworks */,
+				241617471A5BA66E00549D60 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +89,10 @@
 		24AAC92D1A524FCC000A8122 = {
 			isa = PBXGroup;
 			children = (
+				2416174C1A5BA68800549D60 /* Foundation.framework */,
+				2416174A1A5BA68000549D60 /* SpriteKit.framework */,
+				241617481A5BA67A00549D60 /* UIKit.framework */,
+				241617461A5BA66E00549D60 /* CoreGraphics.framework */,
 				24AAC9381A524FCC000A8122 /* Dodge Man (Swift) */,
 				24AAC9521A524FCC000A8122 /* Dodge Man (Swift)Tests */,
 				24AAC9371A524FCC000A8122 /* Products */,
@@ -81,9 +111,11 @@
 		24AAC9381A524FCC000A8122 /* Dodge Man (Swift) */ = {
 			isa = PBXGroup;
 			children = (
+				24AAC9631A525681000A8122 /* Textures */,
 				24AAC93B1A524FCC000A8122 /* AppDelegate.swift */,
 				24AAC93D1A524FCC000A8122 /* GameScene.sks */,
 				24AAC93F1A524FCC000A8122 /* GameScene.swift */,
+				24AAC95F1A525083000A8122 /* MenuScene.swift */,
 				24AAC9411A524FCC000A8122 /* GameViewController.swift */,
 				24AAC9431A524FCC000A8122 /* Main.storyboard */,
 				24AAC9461A524FCC000A8122 /* Images.xcassets */,
@@ -116,6 +148,19 @@
 				24AAC9541A524FCC000A8122 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		24AAC9631A525681000A8122 /* Textures */ = {
+			isa = PBXGroup;
+			children = (
+				241215941A5B7E1900CCDF04 /* platform.png */,
+				241215901A5B7A8500CCDF04 /* pauseButton.png */,
+				241215911A5B7A8500CCDF04 /* pauseButton@2x.png */,
+				24AAC9641A5259CC000A8122 /* character.png */,
+				24AAC9651A5259CC000A8122 /* character@2x.png */,
+				24AAC9611A52567C000A8122 /* ground.png */,
+			);
+			name = Textures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,8 +245,14 @@
 			files = (
 				24AAC94A1A524FCC000A8122 /* LaunchScreen.xib in Resources */,
 				24AAC9471A524FCC000A8122 /* Images.xcassets in Resources */,
+				241215951A5B7E1900CCDF04 /* platform.png in Resources */,
+				24AAC9671A5259CC000A8122 /* character@2x.png in Resources */,
+				241215931A5B7A8500CCDF04 /* pauseButton@2x.png in Resources */,
 				24AAC93E1A524FCC000A8122 /* GameScene.sks in Resources */,
+				241215921A5B7A8500CCDF04 /* pauseButton.png in Resources */,
 				24AAC9451A524FCC000A8122 /* Main.storyboard in Resources */,
+				24AAC9621A52567C000A8122 /* ground.png in Resources */,
+				24AAC9661A5259CC000A8122 /* character.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				24AAC9401A524FCC000A8122 /* GameScene.swift in Sources */,
+				24AAC9601A525083000A8122 /* MenuScene.swift in Sources */,
 				24AAC9421A524FCC000A8122 /* GameViewController.swift in Sources */,
 				24AAC93C1A524FCC000A8122 /* AppDelegate.swift in Sources */,
 			);
@@ -415,6 +467,7 @@
 				24AAC95B1A524FCC000A8122 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		24AAC95C1A524FCC000A8122 /* Build configuration list for PBXNativeTarget "Dodge Man (Swift)Tests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +476,7 @@
 				24AAC95E1A524FCC000A8122 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
